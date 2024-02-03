@@ -24,3 +24,20 @@ git push <remotename> <branch> = push changes to GitHub
 Forks & Clones
 git clone <url> = clone a fork
 cd .. = back out of a directory one level
+
+Branches Aren't Just For Birds
+git add -A = commit all changes
+git branch -m <newbranchname> = change branch name
+git checkout -b <branchname> create & switch to branch
+git branch <name> = create branch
+git checkout <branchname> = move onto branch
+git branch = list Branches
+
+Pull Never Out Of Date
+git pull <remotename> <branchname> = pull in changes from a remote branch
+git fetch --dry-run = see remote changes before pulling in
+
+Merge Tada
+git merge <branchname> = merge branch into current branch
+git branch -d <name> = delete local branch
+git push <remotename> --delete <branchname> = delete remote branch
