@@ -20,3 +20,7 @@ git remote set-url <remotename> <url> = set a URL to a remote
 git pull <remotename> <branchname> = pull in changes
 git remove -v = view remote addresses
 git push <remotename> <branch> = push changes to GitHub
+
+Forks & Clones
+git clone <url> = clone a fork
+cd .. = back out of a directory one level
